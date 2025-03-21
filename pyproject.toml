@@ -1,0 +1,21 @@
+[project]
+name = "drf-trello"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alex Turkin",email = "alexturkinjob@gmail.com"}
+]
+readme = "README.md"
+requires-python = "==3.11.9"
+dependencies = [
+    "django (>=5.1.7,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.staging.dependencies]
+model-bakery = "^1.20.4"
+
